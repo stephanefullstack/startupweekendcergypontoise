@@ -1,0 +1,14 @@
+.address-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+#email-input-tooltip {
+  left: 0 !important; }
+  #email-input-tooltip .email-input-tooltip__text {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 2px; }
+
+
+/*# sourceMappingURL=1.ec5c8939f0a4b3599922.css.map*/

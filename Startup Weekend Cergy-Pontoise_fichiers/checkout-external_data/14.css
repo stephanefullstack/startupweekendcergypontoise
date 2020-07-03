@@ -1,0 +1,16 @@
+.checkout-login-page-back:hover {
+  cursor: pointer; }
+
+.hide-auth {
+  visibility: hidden; }
+
+.checkout-login-progress {
+  position: absolute; }
+
+.checkout-login-iframe--container iframe {
+  overflow: hidden;
+  border: none;
+  display: block; }
+
+
+/*# sourceMappingURL=14.8cf129583096f428d142.css.map*/

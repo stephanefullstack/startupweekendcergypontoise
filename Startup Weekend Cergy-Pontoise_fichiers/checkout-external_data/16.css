@@ -1,0 +1,24 @@
+/* ========== Color =========== */
+/* ========== Background Colors =========== */
+/* ========== Grid =========== */
+/* ========== Text =========== */
+/* ========== Inputs =========== */
+/* ========== Selection Controls =========== */
+/* ========== Lists =========== */
+/* ========== Elevation =========== */
+/* ========== Layout Peaks  =========== */
+/* ========== Typography Font Sizes =========== */
+/* ========== Typography Line Heights =========== */
+/* ========== Typography Letter Spacings =========== */
+.checkout-widget__pay-in-confirmation-illustration {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end; }
+
+.checkout-widget__pay-in-confirmation-body {
+  height: 100%; }
+
+
+/*# sourceMappingURL=16.9f35f3b448437a4aef01.css.map*/

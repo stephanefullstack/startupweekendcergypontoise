@@ -1,0 +1,43 @@
+/* ========== Color =========== */
+/* ========== Background Colors =========== */
+/* ========== Grid =========== */
+/* ========== Text =========== */
+/* ========== Inputs =========== */
+/* ========== Selection Controls =========== */
+/* ========== Lists =========== */
+/* ========== Elevation =========== */
+/* ========== Layout Peaks  =========== */
+/* ========== Typography Font Sizes =========== */
+/* ========== Typography Line Heights =========== */
+/* ========== Typography Letter Spacings =========== */
+/* ========== Responsive breakpoints UP ^^^^ =========== */
+/* ========== Responsive breakpoints DOWN vvvv =========== */
+/* ========== Responsive breakpoints ORIENTATION =========== */
+.protected-event-illustration__container {
+  position: relative; }
+
+.protected-event-illustration__background {
+  position: absolute;
+  height: 90.5%;
+  width: 100%;
+  z-index: -1; }
+
+.protected-event-illustration__svg {
+  width: 90%; }
+
+@media (min-width: 480px) {
+  .protected-event-illustration__svg {
+    height: 200px;
+    width: auto; }
+  .protected-event-illustration__background {
+    height: 192px; } }
+
+@media (min-width: 1272px) {
+  .protected-event-illustration__svg {
+    height: 300px;
+    width: auto; }
+  .protected-event-illustration__background {
+    height: 282px; } }
+
+
+/*# sourceMappingURL=22.0b57166eb3b30b840b37.css.map*/

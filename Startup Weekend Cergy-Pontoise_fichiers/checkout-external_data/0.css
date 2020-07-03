@@ -1,0 +1,22 @@
+/* ========== Color =========== */
+/* ========== Background Colors =========== */
+/* ========== Grid =========== */
+/* ========== Text =========== */
+/* ========== Inputs =========== */
+/* ========== Selection Controls =========== */
+/* ========== Lists =========== */
+/* ========== Elevation =========== */
+/* ========== Layout Peaks  =========== */
+/* ========== Typography Font Sizes =========== */
+/* ========== Typography Line Heights =========== */
+/* ========== Typography Letter Spacings =========== */
+span.checkout-widget__checkout-page__checkbox-label--required {
+  color: #E02E46;
+  display: inline-block; }
+
+.eds-disabled {
+  opacity: 0.5;
+  pointer-events: none; }
+
+
+/*# sourceMappingURL=0.76c736c2c42136b940cc.css.map*/

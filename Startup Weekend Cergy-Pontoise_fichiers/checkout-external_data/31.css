@@ -1,0 +1,28 @@
+.checkout-widget__confirmation-image {
+  margin-top: 176px; }
+
+.checkout-widget__confirmation-logo {
+  height: 100%;
+  display: flex; }
+
+.checkout-widget__confirmation-thanks--small {
+  height: 180px; }
+
+.display-flex {
+  display: flex; }
+
+.left-shrink {
+  flex: 0 0 auto; }
+
+.right-grow {
+  flex: 1 1 auto; }
+
+.checkout-widget__confirmation-success-icon .eds-icon-halo--small {
+  width: 60px;
+  height: 60px; }
+
+.checkout-widget__confirmation-success-icon .eds-icon-halo--small i {
+  margin: 18px; }
+
+
+/*# sourceMappingURL=31.70901f3788b91286bbdc.css.map*/

@@ -1,0 +1,312 @@
+/**
+ * This file is a duplicate from common as part of the IPJ process.
+ * More info: https://phabricator.evbhome.com/D73552
+ */
+/* ========== Color =========== */
+/* ========== Background Colors =========== */
+/* ========== Grid =========== */
+/* ========== Text =========== */
+/* ========== Inputs =========== */
+/* ========== Selection Controls =========== */
+/* ========== Lists =========== */
+/* ========== Elevation =========== */
+/* ========== Layout Peaks  =========== */
+/* ========== Typography Font Sizes =========== */
+/* ========== Typography Line Heights =========== */
+/* ========== Typography Letter Spacings =========== */
+/* ========== Animation Increment =========== */
+/* ========== Timing =========== */
+/* ========== Easing =========== */
+@keyframes moveIn {
+  from {
+    transform: translateX(20px); }
+  to {
+    transform: translateX(0); } }
+
+.moveIn {
+  animation: moveIn 240ms cubic-bezier(0.4, 0, 0.3, 1); }
+
+@keyframes moveOut {
+  from {
+    transform: translateX(0); }
+  to {
+    transform: translateX(20px); } }
+
+.moveOut {
+  animation: moveOut 240ms cubic-bezier(0.4, 0, 0.3, 1); }
+
+@keyframes fadeOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+.fadeOut {
+  animation-name: fadeOut; }
+
+@keyframes fadeOutDown {
+  0% {
+    opacity: 1;
+    transform: translateY(0); }
+  100% {
+    opacity: 0;
+    transform: translateY(20px); } }
+
+.fadeOutDown {
+  animation-name: fadeOutDown; }
+
+@keyframes fadeOutUp {
+  0% {
+    opacity: 1;
+    transform: translateY(0); }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px); } }
+
+.fadeOutUp {
+  animation-name: fadeOutUp; }
+
+.fadeMoveOut {
+  animation: fadeOut linear 240ms, moveOut 240ms cubic-bezier(0.4, 0, 0.3, 1); }
+
+.fadeMoveIn {
+  animation: fadeIn linear 240ms, moveIn 240ms cubic-bezier(0.4, 0, 0.3, 1); }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.fadeIn {
+  animation-name: fadeIn; }
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px); }
+  65% {
+    opacity: 1; }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+.fadeInDown {
+  animation-name: fadeInDown; }
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+.fadeInLeft {
+  animation-name: fadeInLeft; }
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(20px); }
+  100% {
+    opacity: 1;
+    transform: translateX(0); } }
+
+.fadeInRight {
+  animation-name: fadeInRight; }
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); }
+  65% {
+    opacity: 1; }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
+
+.fadeInUp {
+  animation-name: fadeInUp; }
+
+@keyframes elevate {
+  to {
+    transform: perspective(200px) translateZ(30px);
+    box-shadow: 0 1px 17px 0 rgba(40, 44, 53, 0.1), 0 2px 4px 0 rgba(40, 44, 53, 0.1); } }
+
+.elevate {
+  animation-name: elevate;
+  animation-timing-function: 160ms, 240ms; }
+
+@keyframes shake {
+  20% {
+    transform: translate3d(-2px, 0, 0); }
+  40% {
+    transform: translate3d(4px, 0, 0); }
+  60% {
+    transform: translate3d(-4px, 0, 0); }
+  80% {
+    transform: translate3d(2px, 0, 0); } }
+
+.shake {
+  animation: shake 400ms cubic-bezier(0.4, 0, 0.3, 1); }
+
+@keyframes grow {
+  from {
+    transform: scale(0.9, 0.9); }
+  to {
+    transform: scale(1, 1); } }
+
+.grow {
+  animation: grow cubic-bezier(0.4, 0, 0.3, 1) 160ms; }
+
+@keyframes depress {
+  from {
+    transform: scale(1, 1); }
+  to {
+    transform: scale(0.8, 0.8); } }
+
+.depress {
+  animation: depress cubic-bezier(0.4, 0, 0.3, 1) 240ms; }
+
+@keyframes shorten {
+  from {
+    transform: scale(1, 1); }
+  to {
+    transform: scale(1.5, 0.5); } }
+
+.shorten {
+  animation: shorten cubic-bezier(0.4, 0, 0.3, 1) 240ms; }
+
+@keyframes pop {
+  20% {
+    transform: scale(0.9, 0.9); }
+  50% {
+    transform: scale(1.2, 1.2); } }
+
+.pop {
+  animation: pop cubic-bezier(0.4, 0, 0.3, 1) 240ms; }
+
+@keyframes bounce {
+  20% {
+    transform: scale(0.75, 0.75); }
+  50% {
+    transform: scale(1.2, 1.2); }
+  70% {
+    transform: scale(0.85, 0.85); }
+  85% {
+    transform: scale(1.08, 1.08); }
+  90% {
+    transform: scale(0.95, 0.95); }
+  95% {
+    transform: scale(1.05, 1.05); } }
+
+.bounce {
+  animation: bounce 700ms cubic-bezier(0.4, 0, 0.3, 1); }
+
+@keyframes rotateX {
+  to {
+    transform: rotateX(180deg); } }
+
+.rotateX {
+  animation-name: rotateX; }
+
+@keyframes rotateY {
+  to {
+    transform: rotateY(180deg); } }
+
+.rotateY {
+  animation-name: rotateY; }
+
+.rotate {
+  animation: rotate 800ms linear; }
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg); } }
+
+/**
+ * This file is a duplicate from common as part of the IPJ process.
+ * More info: https://phabricator.evbhome.com/D73552
+ */
+.pick-a-seat__footer {
+  background-color: #FFFFFF;
+  border-top: 1px solid #EEEDF2;
+  bottom: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  flex: none;
+  height: 56px;
+  justify-content: space-between;
+  left: 0;
+  margin: 0;
+  min-height: 56px;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  will-change: transform;
+  z-index: 5;
+  box-sizing: border-box;
+  transform: translateY(100%);
+  transition: transform cubic-bezier(0.4, 0, 0.3, 1) 320ms; }
+
+.pick-a-seat__footer:focus {
+  outline: none; }
+
+.pick-a-seat__footer--shown {
+  box-shadow: 0px -2px 50px 0px rgba(255, 255, 255, 0.4);
+  transform: translateY(0%); }
+
+.pick-a-seat__footer .cart-summary {
+  width: 100%; }
+
+.eds-modal__main {
+  overflow: hidden; }
+
+.pick-a-seat__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%; }
+
+.pick-a-seat__promo-code {
+  box-sizing: border-box;
+  flex-grow: 0; }
+
+.pick-a-seat__promo-code .eds-field-styled,
+.pick-a-seat__promo-code .responsive-form {
+  margin-bottom: 0; }
+
+.pick-a-seat__iframe-container {
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+  position: relative; }
+
+.pick-a-seat__iframe {
+  border: 0;
+  flex-grow: 1;
+  height: 100%; }
+
+.promocode-clear-warning--bar {
+  background-color: transparent;
+  box-shadow: none; }
+
+.promo-code-removal-modal {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff; }
+
+.promo-code-removal-modal__button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.eds-collapsible-pane-layout__content--has-pane .eds-modal__content {
+  -webkit-overflow-scrolling: auto; }
+
+.eds-collapsible-pane-layout__content--has-pane .eds-modal__content textarea {
+  z-index: 1; }
+
+
+/*# sourceMappingURL=21.cd403253aa7e6a8d3d40.css.map*/
